@@ -1,0 +1,174 @@
+
+body{background-color: black;
+        background-size:cover;
+        background-repeat: no-repeat;
+         background-attachment: fixed;
+
+         }
+.topnav{background-color: rgba(225,225,225);
+         }
+ .mainnav{display: flex;
+         list-style: none;
+         flex-wrap:wrap;
+         
+         }
+.sticky{position: fixed; 
+        margin: 0%;
+        width: 100%;
+        height: 45px;
+        z-index: 100;
+        }
+
+.style1{font-family: 'Indie Flower', cursive;
+         font-size: 30px;
+         color:black;
+         font-weight: bold;
+         height: 30px;
+         }
+ .style1:hover{color:red;
+         text-decoration: none;
+         transition:2s;
+         transform: scale(1.3)}
+ .style2{font-family: 'Indie Flower', cursive;
+         font-size: 30px;
+         color:black;
+         font-weight: bold;}
+ .style2:hover{color:red;
+                 text-decoration: none;
+                 transition:2s;
+                 transform: scale(1.3)}
+ .email{margin-left:30px;}
+ .map{margin-left:30px;}
+ .imgss{margin-left:30px;
+         }
+ .middelline{margin: auto;
+             position: relative;
+             left: 70px;}
+ .endline{ margin-left:auto;
+           position: relative;
+           right: 30px;}
+ 
+ .toplink{color:black;
+          height: 10px;}
+ .toplink:hover{color:red;
+         text-decoration: none;
+         transition:2s;
+         transform: scale(1.3);}
+
+.imgspace{width: auto;
+         display: flex;
+         justify-content: center;
+         padding-top: 50px;}
+.mainimg{height: 300px;
+        transition: 2s;
+        border-radius: 50%;
+        }
+.mainimg:hover{filter: invert();} 
+
+.questionspace{width: auto;
+        display: flex;
+         justify-content: center;
+                }
+.question{
+        font-family: 'Indie Flower', cursive;
+          font-size: 50px;
+          }
+.question:hover{color:white;
+                transition:2s;
+                transform: scale(1.1)}
+.searchspace{text-align: center;}
+.fact{font-family: 'Indie Flower', cursive;
+        font-size: 40px;}
+.fact:hover{color:white;
+            transition:2s;
+            transform: scale(1.1)}
+.factspace{width: auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;}
+.socialmediaspace{width: auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fill,minmax(120px,400px));
+                grid-gap: 30px;
+                justify-content: center;
+            }
+.socialmedia{width: 250px;
+             height: 150px;
+             transition: all 1s;
+             border-radius: 30%;
+             display: block;}
+.socialmedia:hover{transform: scale(1.1);
+                   box-shadow: 0px 0px 5px red;}
+.usedwebsites{animation-name: bounceInRight;
+                animation-duration: 2s;}
+            @keyframes bounceInRight{
+                        0% {
+                                opacity: 0;
+                                transform: translateX(100%);
+                        }
+                        1%{
+                                opacity: 1;
+                                transform: translateX(100%);
+                        }
+                        35% {
+                                transform: translateX(-4%);
+                        }
+                        50% {
+                                transform: translateX(0);
+                        }
+                        100% {
+                                opacity: 1;
+                                transform: translateX(0);
+                        }
+                }
+            
+                @media  screen and (max-width: 900px){
+                        .toplink{
+                                font-size: 25px;
+                                color:black;
+                        }
+                        .leftn{position: relative;
+                                left: -50px;
+                        }
+                        .style2{
+                                position:relative;
+                                left:-30px;
+                        }
+                        .question{font-size: 35px;}
+                
+                }
+
+
+
+            
+                @media  screen and (max-width: 700px){
+                        .toplink{
+                                font-size: 20px;
+                                color:black;
+                        }
+                        .leftn{position: relative;
+                                left: -50px;
+                        }
+                        .style2{
+                                position:relative;
+                                left:-30px;
+                        }
+                        .question{font-size: 35px;}
+                
+                }
+                @media  screen and (max-width: 600px){
+                        .toplink{
+                                font-size: 16px;
+                                color:black;
+                        }
+                        .leftn{position: relative;
+                                left: -50px;
+                        }
+                        .style2{
+                                position:relative;
+                                left:-30px;
+                        }
+                        .question{font-size: 35px;}
+                
+                }
+
